@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#game {
+    margin: 50px auto;
+    width: 320px;
+    height: 568px;
+    background-image: url(./images/background_1.png);
+    position: relative;
+    background-position-x: 0px;
+    background-position-y: 0px;
+}
+
+.myairplane {
+    width: 66px;
+    height: 80px;
+    background-image: url(./images/我的飞机.gif);
+    position: absolute;
+    top: 488px;
+    left: 127px;
+}
+
+.bul{
+    width: 6px;
+    height: 14px;
+    background-image: url(./images/bullet1.png);
+    position: absolute;
+    top: 475px;
+    left: 158px;
+}
